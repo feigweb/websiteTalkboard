@@ -9,9 +9,11 @@
 <body>
     <div class="white-board">
     <h1 class="title-top margin-each">费凡的留言板</h1>
+    <label class="color-red">注意：网站内容加载不完整是国外服务器问题,请耐心等待,不要关闭!</label>
     <form action="http://localhost:8081/insert" id="myForm" method="post">
         <div class="body margin-each">
             <label id="label-text">
+                <div>
                 <label class="input">
                     <input type="text" name="name" class="inner" placeholder="昵称..." id="form-name" class="border-1" maxlength="12"/>
                 </label>
@@ -21,10 +23,10 @@
                     
                 <p id="char-count">还可输入：1000字</p>
                 </label>
-                
-            <input type="button" value="留言" id="confirm">
+            </div>
             </label>
             
+            <input type="button" value="留言" id="confirm">
             
         </div>
         
