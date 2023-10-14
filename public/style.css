@@ -1,0 +1,96 @@
+@font-face {
+    font-family: HanYi;
+    src: url(./崩.ttf);
+}
+*{
+    background-color: #ffffff;
+    font-family: HanYi;
+}
+.title-top{
+    font-weight: 200;
+    font-size: 24px;
+    margin: 16px;
+}
+.body #label-text{
+    display: block;
+    width: max-content;
+    margin: 8px;
+    font-size: 20px;
+    font-weight: 1;
+}
+.body #label-text  .inner{
+    border: none;
+    width: 100%;
+    height: max-content;
+    background:transparent;
+    padding: 8px 0;
+    outline: none;
+}
+.body #label-text  .inner:focus{
+    background-color: white;
+}
+.body #label-text .input{
+    width: 260px;
+    display: block;
+    background-color: rgb(242, 243, 244);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    padding: 8px;
+    border: rgb(230, 232, 233) 2px solid;
+    height:max-content;
+    margin: 2px 0px;
+}
+.body #label-text .input.focused{
+    background-color: white;
+}
+.body #label-text .special-line{
+    margin: 0;
+    margin-bottom: 3px;
+}
+.body #label-text #char-count{
+    font-size: 12px;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    color: #808080ff;
+}
+.body #label-text #confirm{
+    border: none;
+    width: 30%;
+    padding: 8px;
+    background-color: #00aeec;
+    color: #ffffff;
+}
+.body input[type=button]{
+    background: #ffffff;
+    padding: 3px 15px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    cursor:pointer;
+}
+.body .list{
+    list-style: none;
+}
+.body .list li{
+    border: gray 2px solid;
+    height: max-content;
+    padding:4px ;
+    border-radius:5px;
+    margin:4px;
+}
+.body .list li #text-confirm{
+    display:block;
+    line-height:24px;
+    letter-spacing:1px;
+    padding:0px 1%;
+    word-break:break-all;
+}
+.color-red{
+    color: red !important;
+}

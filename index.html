@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>费凡的留言板</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title-top margin-each">费凡的留言板</h1>
+    <form action="http://localhost:8081/insert" id="myForm" method="post">
+        <div class="body margin-each">
+            <label id="label-text">
+                <label class="input">
+                    <input type="text" name="name" class="inner" placeholder="昵称..." id="form-name" class="border-1" maxlength="12"/>
+                </label>
+                <label class="input">
+                    <input type="text" name="confirm" class="inner" placeholder="留言内容..." id="form-value" maxlength="1000"/>
+                    <hr class="special-line">
+                    
+                <p id="char-count">还可输入：1000字</p>
+                </label>
+                
+            <input type="button" value="留言" id="confirm">
+            </label>
+            
+            <div>
+                <ul class="list" id="getList">
+
+                </ul>
+            </div>
+        </div>
+        
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
