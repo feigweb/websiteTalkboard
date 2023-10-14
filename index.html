@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="white-board">
     <h1 class="title-top margin-each">费凡的留言板</h1>
     <form action="http://localhost:8081/insert" id="myForm" method="post">
         <div class="body margin-each">
@@ -24,14 +25,16 @@
             <input type="button" value="留言" id="confirm">
             </label>
             
-            <div>
-                <ul class="list" id="getList">
-
-                </ul>
-            </div>
+            
         </div>
         
     </form>
+    </div>
+    <div class="talk-history">
+        <ul class="list" id="getList">
+
+        </ul>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>

@@ -76,7 +76,7 @@ function getData(){
         for(let i = 0; i < split_1.length-1; i++){
             let split_2=split_1[i].split("_");
             let object=document.createElement("li")
-            object.innerHTML="<label id='text-confirm'>"+split_2[0]+" · "+split_2[1]+"</label><div style='padding:2px 0px;'></div><label style='color:#aaaaaa'>"+split_2[2]+"</label>";
+            object.innerHTML="<label id='text-confirm'>"+split_2[0]+" · "+split_2[1]+"</label><div style='padding:2px 0px;'></div><label style='color:#aaaaaa'>"+split_2[2]+"</label><hr />";
             document.getElementById("getList").appendChild(object);
         }
         

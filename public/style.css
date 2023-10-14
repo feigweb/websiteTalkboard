@@ -2,14 +2,30 @@
     font-family: HanYi;
     src: url(./崩.ttf);
 }
+body{
+    background-color: #eeeeee;
+}
 *{
-    background-color: #ffffff;
     font-family: HanYi;
+}
+.white-board{
+    background-color: #ffffff;
+    border: #cccccc 1px solid;
+    box-shadow: 0px 3px 10px #cccccc;
+    padding: 8px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
 .title-top{
     font-weight: 200;
     font-size: 24px;
     margin: 16px;
+}
+.body #label-text *{
+    
 }
 .body #label-text{
     display: block;
@@ -41,10 +57,11 @@
     padding: 8px;
     border: rgb(230, 232, 233) 2px solid;
     height:max-content;
-    margin: 2px 0px;
+    margin: 8px 0px;
 }
 .body #label-text .input.focused{
     background-color: white;
+    border: #00aeec 2px solid;
 }
 .body #label-text .special-line{
     margin: 0;
@@ -93,4 +110,13 @@
 }
 .color-red{
     color: red !important;
+}
+.talk-history{
+    margin: 8px;
+    background-color: #ffffff;
+    border-top: #00aeec 3px solid;
+    padding: 8px;
+}
+.talk-history ul{
+    list-style: none;
 }
